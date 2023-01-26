@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+.wrapper{
+    height: 100vh;
+   
+}
+
 
 body{
     background-color: blue;
@@ -14,7 +19,7 @@ body{
 }
 
 .container_top{
-    width: 100vw;
+    width: 100%;
     height: 100px;
     background-color: green;
     position: fixed;
@@ -35,18 +40,41 @@ body{
 }
 
 main{
-    padding-top: 120px;
+    padding: 120px 0;
 }
 
 .container_main{
+    overflow-y: scroll;
     width: 90%;
     margin: auto;
     background-color: pink;
     height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .imagine{
-    height: 100px;
-    width: 100px;
+    
+    object-fit: cover;
+    width: 160px;
+    /* width: calc(100% / 7 - 5px);
+    height: calc(100vh / 5 ); */
     background-color: yellow;
+    
+    border: 1px solid black;
+}
+
+.imgg{
+    width: 100%;
+}
+
+
+.container_foot{
+    width: 100vw;
+    height: 70px;
+    background-color: grey;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 50;
 }

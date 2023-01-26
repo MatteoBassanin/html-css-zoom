@@ -52,9 +52,9 @@ main{
 }
 
 .imagine{  
-    object-fit: cover;
-    width: 180px;
-    margin: 0 2px;  
+    width: 160px;
+    margin: 5px 2px;  
+    position: relative;
    
 }
 
@@ -71,4 +71,12 @@ main{
     bottom: 0;
     left: 0;
     z-index: 50;
+}
+
+.name{
+    position: absolute;
+    left: 0;
+    top: 89px;
+    background-color: grey;
+    color: white;
 }

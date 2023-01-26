@@ -13,6 +13,7 @@
 
 body{
     background-color: black;
+    font-family: sans-serif;
 }
 
 .icons{
@@ -33,7 +34,7 @@ body{
     text-align: right;
     background-color: grey;
     padding: 10px;
-    font-size: 15px;
+    font-size: 10px;
     margin-left: 50px;
     border-radius: 5px;
     color: white;
@@ -87,6 +88,7 @@ main{
     width: 100%;
     height: 50px;
     align-items: center;
+    background-color: #222222;
 }
 
 .options ul{
@@ -106,14 +108,25 @@ li{
 
 i , .icon_bot{
     margin-right: 10px;
+    
 }
 
 .right{
-    background-color: red;
+    background-color: #4A4A4A;
     font-size: 12px;
     line-height: 40px;
+    padding: 5px;
+    color: red;
 }
 
 .description, .sign{
     font-size: 10px;
+}
+
+.long{
+    text-align: center;
+}
+
+.green{
+    color: green;
 }

@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: blue;
+}
+
+.icons{
+    text-align: right;
+}
+
+.container_top{
+    width: 100vw;
+    height: 100px;
+    background-color: green;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 50;
+}
+
+
+.icon{
+    text-align: right;
+    background-color: grey;
+    padding: 10px;
+    font-size: 15px;
+    margin-left: 50px;
+    border-radius: 5px;
+    color: white;
+}
+
+main{
+    padding-top: 120px;
+}
+
+.container_main{
+    width: 90%;
+    margin: auto;
+    background-color: pink;
+    height: 100vh;
+}
+
+.imagine{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+}

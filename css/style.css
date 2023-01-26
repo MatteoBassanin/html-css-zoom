@@ -35,13 +35,14 @@ body{
     background-color: grey;
     padding: 10px;
     font-size: 10px;
-    margin-left: 50px;
+    margin-left: 2px;
     border-radius: 5px;
     color: white;
 }
 
 main{
-    padding: 120px 0;
+    padding: 70px 0 120px;
+   
 }
 
 .container_main{

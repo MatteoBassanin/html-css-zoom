@@ -20,6 +20,7 @@ body{
     text-align: right;
 }
 
+
 .container_top{
     width: 100%;
     height: 70px;
@@ -27,8 +28,8 @@ body{
     top: 0;
     left: 0;
     z-index: 50;
+    background-color: black;
 }
-
 
 .icon{
     text-align: right;
@@ -63,7 +64,6 @@ main{
 .imgg{
     width: 100%;
 }
-
 
 .container_foot{
     width: 100vw;
@@ -109,7 +109,6 @@ li{
 
 i , .icon_bot{
     margin-right: 10px;
-    
 }
 
 .right{

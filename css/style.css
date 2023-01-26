@@ -8,7 +8,6 @@
     width: 100vw;
     height: 100vh;
     overflow-y: scroll;
-
 }
 
 body{
@@ -43,20 +42,19 @@ body{
 
 main{
     padding: 70px 0 120px;
-   
 }
 
 .container_main{
     width: 90%;
     margin: auto;
-    height: 100vh;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .imagine{  
     width: 160px;
-    margin: 5px 2px;  
+    margin: 2px 1px; 
     position: relative;
    
 }

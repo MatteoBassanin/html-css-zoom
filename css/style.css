@@ -60,15 +60,6 @@ main{
     width: 100%;
 }
 
-.container_foot{
-    width: 100vw;
-    height: 70px;
-    background-color: grey;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    z-index: 50;
-}
 
 .name{
     position: absolute;
@@ -85,6 +76,10 @@ main{
     height: 50px;
     align-items: center;
     background-color: #222222;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 50;
 }
 
 .options ul{
@@ -99,7 +94,6 @@ li{
     font-size: 20px;
     color: white;
     display: flex;
-    margin-right: 10px;
 }
 
 i , .icon_bot{
